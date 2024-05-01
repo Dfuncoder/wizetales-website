@@ -1,0 +1,53 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Bungee_Inline';
+    src:
+        url('/resources/fonts/Bungee_Inline/BungeeInline-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Bangers';
+    src:
+        url('/resources/fonts/Bangers/Bangers-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Nunito';
+    src:url('/resources/fonts/Nunito/Nunito-VariableFont_wght.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Nunito1';
+    src:
+        url('/resources/fonts/Nunito/Nunito-Italic-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'poppins';
+    src:
+        url('/resources/fonts/Poppins/Poppins-Medium.ttf') format('truetype');
+}
+
+@layer components{
+    @keyframes marquee {
+        0% {
+            transform: translateX(100%);
+        }
+        100% {
+            transform: translateX(-20%);
+        }
+    }
+
+   .swiper-slide{
+    filter: blur(4px);
+   }
+   
+
+   
+}
