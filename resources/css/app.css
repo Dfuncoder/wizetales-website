@@ -43,7 +43,6 @@
             transform: translateX(-20%);
         }
     }
-
    .swiper-slide{
     filter: blur(4px);
    }
